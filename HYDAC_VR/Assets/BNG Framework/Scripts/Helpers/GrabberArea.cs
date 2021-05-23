@@ -13,9 +13,9 @@ namespace BNG {
 
         public List<Grabber> grabbersInArea;
 
-        private void Update() {
-            InArea = GetOpenGrabber();
-        }
+        // private void Update() {
+        //     InArea = GetOpenGrabber();
+        // }
 
         public Grabber GetOpenGrabber() {
             if(grabbersInArea != null && grabbersInArea.Count > 0) {
